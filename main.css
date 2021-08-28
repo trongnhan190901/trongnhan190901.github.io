@@ -62,7 +62,9 @@ a:active {
 }
 
 iframe {
- position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-light: auto;
      width:80%;
      height:80%;
 }

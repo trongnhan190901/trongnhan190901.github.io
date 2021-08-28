@@ -5,6 +5,7 @@ html {
 h1 {
     color: white;
     font-family: "Courier New", Courier, monospace;
+    font-weight: 500;
 }
 
 body {
@@ -29,14 +30,12 @@ body {
 h2 {
     color: blue;
     font-size: 4rem;
-    /* font-family: "Lora", serif; */
-    font-style: bold;
     line-height: 1.2;
+    font-weight: 500;
 }
 
 p {
     font-size: 1.8rem;
-    /* font-family: "Lora", serif; */
     font-style: initial;
     line-height: 1.2;
 }

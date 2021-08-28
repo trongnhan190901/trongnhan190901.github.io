@@ -63,9 +63,10 @@ a:active {
 
 iframe {
     display: block;
-    margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
+     width: 80%;
+    background-size: cover;
 }
 
 .background {

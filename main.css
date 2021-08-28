@@ -1,0 +1,69 @@
+html {
+    font-size: 62.5%;
+}
+
+h1 {
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+}
+
+.box {
+    align-items: center;
+    text-align: center;
+    line-height: 120px;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    font-size: 6rem;
+}
+
+.text {
+    margin: 0px auto;
+    width: 80%;
+}
+
+h2 {
+    color: blue;
+    text-align: center;
+    font-size: 4rem;
+    /* font-family: "Lora", serif; */
+    font-style: bold;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 1.8rem;
+    /* font-family: "Lora", serif; */
+    font-style: initial;
+    line-height: 1.2;
+}
+
+a {
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+
+a:active {
+    color: red;
+}
+
+iframe {
+    display: block;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background {
+    display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-size: cover;
+}

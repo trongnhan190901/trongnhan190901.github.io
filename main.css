@@ -43,6 +43,14 @@ p {
     font-style: initial;
     line-height: 1.2;
 }
+.image{
+      display: block;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-size: cover;
+}
 
 a {
     font-size: 1.8rem;

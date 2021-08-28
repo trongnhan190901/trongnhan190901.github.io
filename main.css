@@ -61,15 +61,7 @@ a:active {
     color: red;
 }
 
-iframe {
-    display: block;
-    margin-left: auto;
-    margin-light: auto;
-    width:80%;
-    margin-top: 1rem;
-    background-size: cover;
 
-}
 
 .background {
     display: block;

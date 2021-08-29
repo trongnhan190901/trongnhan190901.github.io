@@ -23,7 +23,6 @@ body {
     width: 100%;
     height: auto;
     background-color: black;
-    font-size: 4rem;
 }
 
 .text {
@@ -126,5 +125,5 @@ footer {
 }
 
 .end {
-    font-size: 3.5rem;
+    font-size: 4rem;
 }

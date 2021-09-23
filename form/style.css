@@ -11,6 +11,10 @@ body {
     color: #dedede;
 }
 
+.flex {
+    display: flex;
+}
+
 .form-design .header {
     text-align: center;
     color: #faab66;

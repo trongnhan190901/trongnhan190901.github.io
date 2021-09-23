@@ -81,6 +81,7 @@ body {
 
 .form-design #date {
     width: 170px !important;
+    height: 35px;
 }
 
 .form-design #gender {

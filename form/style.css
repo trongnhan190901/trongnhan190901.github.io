@@ -16,6 +16,7 @@ body {
     color: #faab66;
     font-size: 40px;
     font-weight: 600;
+    line-height: 140px;
 }
 
 .gender {
@@ -28,9 +29,8 @@ body {
 }
 
 .form-design {
-    width: 35%;
-    height: 70%;
-    padding: 40px;
+    width: 600px;
+    height: 700px;
     background-color: rgba(0, 0, 0, 0.5);
     margin: auto auto;
     border-radius: 16px;
@@ -90,7 +90,7 @@ body {
 
 .form-design input,
 select {
-    margin: 4px 0;
+    margin: 4px 4px;
     border: none;
     padding: 8px;
     border-radius: 10px;

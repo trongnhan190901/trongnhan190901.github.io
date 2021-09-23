@@ -70,7 +70,7 @@ body {
 .form-design #name,
 #email,
 #phone-number {
-    width: 250px;
+    width: 275px;
 }
 
 .form-design #type,
@@ -80,11 +80,11 @@ body {
 }
 
 .form-design #date {
-    width: 145px !important;
+    width: 170px !important;
 }
 
 .form-design #gender {
-    width: 85px !important;
+    width: 80px !important;
 }
 
 .form-design input,
@@ -95,9 +95,8 @@ select {
     border-radius: 10px;
     font-size: 16px;
 }
-.form-design [type]
 
-.form-design #date {
+.form-design [type] .form-design #date {
     font-size: 12.5px !important;
 }
 

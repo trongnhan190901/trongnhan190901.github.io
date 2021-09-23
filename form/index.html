@@ -1,72 +1,125 @@
-<!DOCTYPE html>
-<html lang="en">
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-<head>
-    <title>Vidu3Chuong2</title>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
-</head>
+html,
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100%;
+    color: #dedede;
+}
 
-<body>
+.flex {
+    display: flex;
+}
 
-    <form action="" class="form-design">
-        <div class="header">Information Form</div>
-        <div class="form-page">
-            <label for="username"> Your name:</label><br>
-            <input type="text" id="name" placeholder="Charles Collins" />
-            <br />
-            <div class="birthday">
-                <label for="date" id="">Date of birth:
-            <br>
-            <input type="date" name="start" id="date" min="1950-01-01" max="2021-12-31" />
-        </div>
-        <div class="gender">
-            <label for="gender">Gender: </label><br>
-                <select name="gender" id="">
-                <option value="none" selected disabled hidden>Select</option>
-                <option value="Male">Male</option>
-                <option value="Female">Female</option>
-                <option value="Other">Other</option>
-          </select>
-            </div>
-            <br />
-            <label for="type">You are:</label>
-            <br />
-            <input type="radio" name="type" id="type" />Student
-            <br />
-            <input type="radio" name="type" id="type" />Lecturer
-            <br />
-            <input type="radio" name="type" id="type" />Other
-            <br />
-            <label for="email">Email:</label><br />
-            <input type="text" name="email" id="email" placeholder="abcd@example.com" /><br />
-            <label for="phone">Phone:</label><br />
-            <input type="tel" name="phone-number" id="phone-number" placeholder="0123456789" pattern="[0-9]{10}" /><br />
-            <label for="hooby">You like:</label><br />
-            <div class="hobby">
-                <input type="checkbox" name="hobby" id="hobby" />Animals
-                <br>
-                <input type="checkbox" name="hobby" id="hobby" />Movies
-            </div>
-            <div class="hobby">
-                <input type="checkbox" name="hobby" id="hobby" />Books
-                <br>
-                <input type="checkbox" name="hobby" id="hobby" />Travel
-            </div>
-            <div class="hobby">
-                <input type="checkbox" name="hobby" id="hobby" />Sports
-                <br>
-                <input type="checkbox" name="hobby" id="hobby" />Games
-            </div>
-            <input type="submit" class="submit" value="Submit" />
-        </div>
-    </form>
-    </div>
-</body>
+.form-design .header {
+    text-align: center;
+    color: #faab66;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 135px;
+}
 
-</html>
+.gender {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: -4px;
+}
+
+.birthday {
+    display: inline-block;
+}
+
+.form-design {
+    width: 450px;
+    height: 700px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto auto;
+    border-radius: 16px;
+    box-shadow: 0 0 10px #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.form-design .form-page {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    margin-top: 40px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-design::before {
+    background-image: url(https://images.unsplash.com/photo-1611329532992-0b7ba27d85fb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2370&q=80);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    content: "";
+    opacity: 0.6;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    display: block;
+    filter: blur(1px);
+}
+
+.form-design #name,
+#email,
+#phone-number {
+    width: 275px;
+}
+
+.form-design #type,
+#hobby {
+    width: 20px;
+    margin-left: 4px;
+}
+
+.form-design #date {
+    width: 170px !important;
+    height: 35px;
+}
+
+.form-design #gender {
+    width: 80px !important;
+}
+
+.form-design input,
+select {
+    margin: 4px 4px;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.form-design [type] .form-design #date {
+    font-size: 12.5px !important;
+}
+
+.form-design .hobby {
+    display: inline-block;
+}
+
+.form-design .submit {
+    background-color: #faab66;
+    width: 150px;
+    color: #fff;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
